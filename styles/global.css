@@ -33,3 +33,19 @@ header .logo {
 main {
     padding: 20px;
 }
+
+.purple {
+    color: purple;
+}
+
+.orange {
+    color: orange;
+}
+
+.green {
+    color: green;
+}
+
+.intro {
+    font-family: cursive;
+}
