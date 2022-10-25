@@ -1,11 +1,6 @@
-/* Imports */
+//  display name
+const nameDisplay = document.getElementById('name');
+console.log('nameDisplay');
 
-/* Get DOM Elements */
-
-/* State */
-
-/* Events */
-
-/* Display Functions */
-
-// (don't forget to call any display functions you want to run on page load!)
+nameDisplay.textContent = 'Michelle';
+nameDisplay.classList.add('red');
