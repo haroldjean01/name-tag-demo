@@ -15,3 +15,14 @@ updateBtn.addEventListener('click', () => {
     nameDisplay.textContent = nameInput.ariaValueMax;
     nameInput.value = '';
 });
+
+const colorDropdown = document.getElementById('color-dropdown');
+colorDropdown.addEventListener('change', () => {
+    console.log('change is happening!');
+    console.log(colorDropdown.value);
+
+    nameDisplay.classList.remove('purple');
+    nameDisplay.classList.remove('orange');
+    nameDisplay.classList.remove('green');
+    nameDisplay.classList.add(colorDropdown.value);
+});
